@@ -27,7 +27,8 @@ homePage.addEventListener("click",function(){
     featurePost.classList.remove("hidden")
 })
 
-viewMore.addEventListener("click",function(){
+viewMore.addEventListener("click",function(e){
+    e.preventDefault()
     viewMore.classList.add("hidden")
     viewMoreContents.forEach(function(viewMoreContent){
         viewMoreContent.classList.remove("hidden")
