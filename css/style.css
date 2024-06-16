@@ -1,0 +1,189 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:400;
+}
+
+/*typography*/
+
+h1{
+    font-size:2rem;
+    font-weight: 900;
+    margin:0.5em 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0.4em 0;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color:#0E0E0E;
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.date{
+    font-size:0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.sub-heading{
+    font-weight: 900;
+}
+
+.blog-description{
+    margin-top: 0;
+}
+
+/*buttons and links*/
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover,
+a:focus{
+    transform: scale(1.1);
+}
+
+/*images*/
+img{
+    width: 100%;
+}
+
+/*utility*/
+.hidden{
+    display: none;
+}
+
+/*layout*/
+
+/*header*/
+header{
+    position: sticky;
+    top:0;
+    display: flex;
+    padding:0 1em;
+    gap:0.2em;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:1em;
+}
+
+.container{
+    padding:0 1em;
+    /* border:1px solid black; */
+    margin: 0 auto;
+}
+
+/*home-page*/
+.home-page{
+    background-image: url("../images/feature-image.svg");
+    background-color: #0E0E0E;
+    background-size: cover;
+    color:#ffffff;
+    padding-top:5em;
+    padding-bottom:0.5em;
+}
+
+/*feature-post*/
+.feature-post{
+    /* border:1px solid black; */
+    padding-top: 2em;
+}
+
+.feature-image{
+    margin:0.5em 0;
+}
+
+/*about-me*/
+
+.about-me{
+    padding-top:2em;
+}
+.author-img{
+    width: 45%;
+}
+
+.experience-text{
+    margin-bottom: 2.5em;
+}
+
+/*recent-posts*/
+.recent-posts{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 2em;
+}
+
+/*blog*/
+.blog{
+    display: grid;
+    margin:1em 0;
+    gap:1.5em;
+}
+/* .blog section{
+    border:1px solid black;
+} */
+
+.view-more{
+    text-align: center;
+    margin-bottom:3em;
+}
+
+.view-more a{
+    text-decoration: underline;
+}
+
+/*footer*/
+footer{
+    font-size: 0.75rem;
+    padding:0.5rem 0;
+    text-align: center;
+    color:#ffffff;
+    background-color: #0E0E0E;
+
+}
+
+.footer-text{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.rmv-bottom-margin{
+    font-weight: 400;
+    margin:0;
+}
+
+
+
+
