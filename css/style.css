@@ -33,6 +33,7 @@ h3{
 }
 
 li{
+    font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -122,7 +123,10 @@ nav ul{
 }
 
 .feature-image{
+    display: block;
     margin:0.5em 0;
+    max-width: 900px;
+    margin:0 auto;
 }
 
 /*about-me*/
@@ -184,6 +188,65 @@ footer{
     margin:0;
 }
 
+@media(min-width:576px){
+    h3{
+        font-size: 1.25rem;
+    }
 
+    li{
+        font-size: 1rem;
+    }
+
+    .recent-posts{
+        font-size: 1.5rem;
+    }
+
+    header{
+        padding:0.5em 3em;
+    }
+
+    .container{
+        padding: 0 3em;
+    }
+
+    .home-page .container{
+        margin-left:0;
+        width: 65%;
+    }
+
+    .home-page{
+        padding-top:20em;
+        padding-bottom:3em;
+    }
+
+    .feature-post-text,
+    .about-me-text{
+        padding:0 4em;
+    }
+
+    .blog{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .about-me{
+        padding-top:5em;
+    }
+    .author-img{
+        float: left;
+        max-width: 200px;
+        margin-right: 2.5em;
+        margin-bottom: 4em;
+    }
+    
+    .experience-text{
+        margin-bottom: 3em;
+    }
+
+    .clear-float{
+        clear: both;
+    }
+
+
+}
 
 
