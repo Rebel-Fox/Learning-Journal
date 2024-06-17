@@ -38,6 +38,9 @@ li{
     font-weight: 500;
 }
 
+p{
+    line-height:1.5;
+}
 
 .date{
     font-size:0.75rem;
@@ -68,6 +71,10 @@ a:focus{
 /*images*/
 img{
     width: 100%;
+}
+
+.feature-post-page-link{
+    all:unset;   
 }
 
 /*utility*/
@@ -245,8 +252,6 @@ footer{
     .clear-float{
         clear: both;
     }
-
-
 }
 
 
