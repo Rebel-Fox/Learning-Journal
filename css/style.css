@@ -143,7 +143,10 @@ nav ul{
     padding-top:2em;
 }
 .author-img{
-    width: 45%;
+    border-radius: 50%;
+    max-width: 80px;
+
+
 }
 
 .experience-text{
